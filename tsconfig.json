@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["src/components/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/backend/*": ["backend/*"],
+      "@/exceptions/*": ["backend/exceptions/*"],
+      "@/features/*": ["backend/features/*"],
+      "@/common/*": ["common/*"],
+      "@/validations/*": ["common/validations/*"],
+      "@/backendApi/*": ["backend-api/*"],
+      "@/models/*": ["backend-api/src/models/index"],
+      "@/api/*": ["backend-api/src/routes/api/*"],
+      "@/controllers/*": ["backend-api/src/controllers/*"],
+      "@/resources/*": ["backend-api/src/resources/*"],
+      "@/services/*": ["backend-api/src/services/*"],
+      "@/config/*": ["backend-api/src/config/*"],
+      "@/types/*": ["backend-api/src/types/*"],
+      "@/helpers/*": ["backend-api/src/helpers/index"],
+      "@/listings/*": ["backend-api/src/listings/*"],
+      "@/middleware/*": ["backend-api/src/middleware/*"],
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "declarations.d.ts",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

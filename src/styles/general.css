@@ -1,0 +1,110 @@
+.page_container {
+    padding: 20px;
+    background-color: var(--backgroundMain);
+    height: 100%;
+}
+
+.select_container {
+    display: flex;
+    border: 1px solid var(--fontMain);
+    border-radius: 10px;
+    align-items: center;
+    margin-right: 20px;
+    color: var(--fontMain);
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.select_container p {
+    border-right: 1px solid #92cae0;
+    padding: 6px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+.select_container .select {
+    margin-left: 5px;
+    width: 100%;
+    border-style: none none none none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: var(--backgroundMain);
+}
+
+.select_container .select:focus {
+    outline: none;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+.navTabs {
+    border-bottom: 2px solid #e5e7eb;
+    display: flex;
+}
+
+.navTabs>li {
+    margin-bottom: -2px;
+}
+
+.dimmed .ui.dimmer, .dimmed.dimmable>.ui.visible.dimmer, .ui.active.dimmer  {
+    background-color: rgba(248, 246, 246, 0.686);
+    opacity: 1 !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.Toastify__toast-container {
+    --toastify-text-color-info: #48AAE1;
+    --toastify-text-color-success: #66C565;
+    --toastify-text-color-warning: #F0AF63;
+    --toastify-text-color-error: #FF0000;
+    --toastify-color-success: #EAF7EE;
+    --toastify-color-warning: #FEF7EA;
+    --toastify-color-error: #FFF2F2;
+    --toastify-color-info: #E5EFFA;
+}
+
+.Toastify__toast {
+    border-radius: 15px !important;
+}
+
+.Toastify__toast--success {
+    border: 2px solid #66C565;
+  
+}
+
+.Toastify__toast--warning {
+    border: 2px solid #F0AF63;
+}
+  
+.Toastify__toast--info {
+    border: 2px solid #48AAE1;
+}
+
+.Toastify__toast--error {
+    border: 2px solid #FF0000;
+}
+
+.Toastify__close-button {
+    color: #55575C !important; 
+}
+
+.Toastify__progress-bar--success {
+    background-color: #66C565 !important;; 
+}
+  
+.Toastify__progress-bar--info {
+    background-color: #87CEEB !important;
+}
+ 
+.Toastify__progress-bar--warning {
+    background-color: #F0AF63 !important;; 
+}
+  
+.Toastify__progress-bar--error {
+    background-color: #FF0000 !important;
+}
